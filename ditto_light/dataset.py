@@ -34,7 +34,7 @@ class DittoDataset(data.Dataset):
         if isinstance(path, list):
             lines = path
         else:
-            lines = open(path, 'rb')
+            lines = open(path, 'r')
 
         for line in lines:
             s1, s2, label = line.strip().split('\t')
