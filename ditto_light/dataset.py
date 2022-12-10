@@ -34,10 +34,10 @@ class DittoDataset(data.Dataset):
         if isinstance(path, list):
             lines = path
         else:
-            lines = open(path, 'r', encoding='UTF-8')
+            lines = open(path, 'rb')
 
         for line in lines:
-            s1, s2, label = line.strip().split('\t')
+            s1, s2, label = line.encode('utf-8').strip().split('\t')
             self.pairs.append((s1, s2))
             self.labels.append(int(label))
 
