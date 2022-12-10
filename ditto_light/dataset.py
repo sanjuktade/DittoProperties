@@ -37,7 +37,7 @@ class DittoDataset(data.Dataset):
             lines = open(path, 'rb')
 
         for line in lines:
-            s1, s2, label = line.encode('utf-8').strip().split('\t')
+            s1, s2, label = line.decode('utf-8').strip().split('\t')
             self.pairs.append((s1, s2))
             self.labels.append(int(label))
 
