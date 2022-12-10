@@ -224,6 +224,14 @@
     "testset": "data/er_magellan/Structured/DBLP-ACM-Reflexive/test.txt"
   },
   {
+    "name": "Structured/DBLP-ACM-Symmetric",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/DBLP-ACM-Symmetric/train.txt",
+    "validset": "data/er_magellan/Structured/DBLP-ACM-Symmetric/valid.txt",
+    "testset": "data/er_magellan/Structured/DBLP-ACM-Symmetric/test.txt"
+  },
+  {
   "name": "Structured/DBLP-GoogleScholar",
   "task_type": "classification",
   "vocab": ["0", "1"],
