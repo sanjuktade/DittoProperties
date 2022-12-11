@@ -240,6 +240,30 @@
   "testset": "data/er_magellan/Structured/DBLP-GoogleScholar/test.txt"
   },
   {
+    "name": "Structured/DBLP-XY",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/DBLP-DBLP-XY/train.txt",
+    "validset": "data/er_magellan/Structured/DBLP-DBLP-XY/valid.txt",
+    "testset": "data/er_magellan/Structured/DBLP-DBLP-XY/test.txt"
+  },
+  {
+    "name": "Structured/DBLP-YZ",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/DBLP-DBLP-YZ/train.txt",
+    "validset": "data/er_magellan/Structured/DBLP-DBLP-YZ/valid.txt",
+    "testset": "data/er_magellan/Structured/DBLP-DBLP-YZ/test.txt"
+  },
+  {
+    "name": "Structured/DBLP-Transitive",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/DBLP-DBLP-Transitive/train.txt",
+    "validset": "data/er_magellan/Structured/DBLP-DBLP-Transitive/valid.txt",
+    "testset": "data/er_magellan/Structured/DBLP-DBLP-Transitive/test.txt"
+  },
+  {
   "name": "Structured/Fodors-Zagats",
   "task_type": "classification",
   "vocab": ["0", "1"],
