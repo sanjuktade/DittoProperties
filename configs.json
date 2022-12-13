@@ -176,6 +176,62 @@
   "testset": "data/er_magellan/Dirty/DBLP-GoogleScholar/test.txt"
   },
   {
+    "name": "Dirty/DBLP-GoogleScholar",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-GoogleScholar/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-GoogleScholar/valid.txt",
+    "testset": "data/er_magellan/Dirty/DBLP-GoogleScholar/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar-Reflexive",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-Scholar-Reflexive/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-Scholar-Reflexive/valid.txt",
+    "testset": "data/er_magellan/DirtyDBLP-Scholar-Reflexive/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar-Symmetric",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-Scholar-Symmetric/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-Scholar-Symmetric/valid.txt",
+    "testset": "data/er_magellan/Dirty/DBLP-Scholar-Symmetric/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar-Symmetric",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-Scholar-Symmetric/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-Scholar-Symmetric/valid.txt",
+    "testset": "data/er_magellan/Dirty/DBLP-Scholar-Symmetric/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar-XY",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-Scholar-XY/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-Scholar-XY/valid.txt",
+    "testset": "data/er_magellan/Dirty/DBLP-Scholar-XY/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar-YZ",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-Scholar-YZ/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-Scholar-YZ/valid.txt",
+    "testset": "data/er_magellan/Dirty/DBLP-Scholar-YZ/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar-transitivity",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Dirty/DBLP-Scholar-transitivity/train.txt",
+    "validset": "data/er_magellan/Dirty/DBLP-Scholar-transitivity/valid.txt",
+    "testset": "data/er_magellan/Dirty/DBLP-Scholar-transitivity/test.txt"
+  },
+  {
   "name": "Dirty/iTunes-Amazon",
   "task_type": "classification",
   "vocab": ["0", "1"],
